@@ -508,7 +508,7 @@ ul#nav li.active a { color: #11ABB0; }
 }
 #about .section-head h2,
 #about h4, #about h5 { color: #0f9095; }
-#about .section-head p.desc { color: #999999; }
+#about .section-head p.desc { color: #999999; font-size: medium; }
 #about .section-head p, span { color: #000000; font-weight: bold; }
 #about .section-head .intro { color: #A3A3A3; }
 #about h3 {
@@ -543,7 +543,7 @@ ul#nav li.active a { color: #11ABB0; }
 }
 #meet .section-head h2 { color: #11ABB0 },
 #meet h4, #meet h5 { color: #0f9095; }
-#meet .section-head p.desc { color: #999999; }
+#meet .section-head p.desc { color: #999999; font-size: medium; }
 #meet .section-head p, span { color: #000000;  font-weight: bold;}
 #meet .section-head .intro { color: #A3A3A3; }
 #meet h3 {
@@ -1112,7 +1112,7 @@ ol.commentlist {
 footer {
    margin-top: 30px;
    margin-bottom: 30px;
-   color: #303030;
+   color: #ABABAB;
    font-size: 14px;
 }
 footer a, footer a:visited { color: #0B686B; }
