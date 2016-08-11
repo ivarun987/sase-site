@@ -178,15 +178,27 @@ blockquote {
 }
 blockquote:before {
    content: "\201C";
-   opacity: 0.45;
+   opacity: 0.75;
    font-size: 80px;
    line-height: 0px;
    margin: 0;
    font-family: arial, sans-serif;
-
    position: absolute;
    top:  30px;
 	left: 0;
+   color: #FFFFFF;
+}
+blockquote:after {
+   content: '\201D';
+   opacity: 0.75;
+   font-size: 80px;
+   line-height: 0px;
+   margin: 0;
+   font-family: arial, sans-serif;
+   position: absolute;
+   bottom: -30px;
+   right: 0;
+   color: #FFFFFF;
 }
 blockquote p {
    font-family: georgia, serif;
@@ -203,7 +215,7 @@ blockquote cite {
 }
 blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a,
-blockquote cite a:visited { color: #8B9798; border: none }
+blockquote cite a:visited { color: #FFFFFF; border: none }
 
 /* ---------------------------------------------------------------------
 /*  Pull Quotes Markup

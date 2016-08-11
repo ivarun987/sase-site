@@ -531,6 +531,107 @@ ul#nav li.active a { color: #11ABB0; }
 
 /* ================================================================== */
 
+/* c. Why Section
+
+/* ================================================================== */
+
+#why {
+   background-color: #0f9095;
+   padding-top: 156px;
+   padding-bottom: 120px;
+   color: #7fe6ed;
+}
+
+#why .section-head h2,
+#why h4, #why h5 { color: #000000; }
+#why .section-head p.desc { color: #FFFFFF; font-size: medium; }
+#why .section-head p, span { color: #000000; font-weight: bold; }
+#why .section-head .intro { color: #FFFFFF; }
+#why h3 {
+   font: 24px/30px montserrat-regular, sans-serif;
+   margin-top: 24px;
+   margin-bottom: 24px;
+   color: #6E6E6E;
+}
+
+/* FlexSlider Intro Slider Styles */
+.slides {
+   max-height: 660px;
+   overflow: hidden;
+}
+.slider-text {
+   color: #737E8C;
+   text-align: center;
+   width: 85%;
+   margin: 156px auto 66px auto;
+}
+.slider-text h2 {
+   font: 56px/78px montserrat-regular, Sans-serif;
+   color: #fff;
+   text-shadow: 0px 1px 5px rgba(50, 50, 50, .5);
+   padding: 0;
+   margin: 0;
+}
+.slider-text h2 span,
+.slider-text a { color: #11ABB0; }
+.slider-text cite {color: #FFFFFF;}
+
+.slider-text p {
+   font: 17px/36px opensans-light, sans-serif;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .3);
+   padding: 0;
+   margin: 18px 10% 0;
+   color: #FFFFFF
+}
+
+
+/* Direction Navigation
+--------------------------------------------------------------- */
+.flex-direction-nav a {
+   display: block;
+   width: 40px;
+   height: 66px;
+   margin: 0;
+   background-color: #2D3339;
+   cursor: pointer;
+   z-index: 99999;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+
+   font: 0/0 a;
+   text-shadow: none;
+   color: transparent;
+
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+
+.flex-direction-nav a:hover { background-color: #11ABB0; }
+
+.flex-direction-nav .flex-next {
+   right: 0px;
+   background: #2D3339 url(../images/direction-nav-right.png) no-repeat 53% 50%;
+   position: absolute;
+}
+.flex-direction-nav .flex-prev {
+   left: 0px;
+   background: #2D3339 url(../images/direction-nav-left.png) no-repeat 47% 50%;
+   position: absolute;
+}
+.flexslider:hover .flex-next,
+.flexslider:hover .flex-prev { opacity: 1; }
+.flex-direction-nav .flex-disabled {
+   opacity: .3 !important;
+   filter: alpha(opacity=30);
+   cursor: default;
+}
+
+/* ================================================================== */
+
 /* h. Meet the Board
 
 /* ================================================================== */
@@ -543,7 +644,7 @@ ul#nav li.active a { color: #11ABB0; }
 }
 #meet .section-head h2 { color: #11ABB0 },
 #meet h4, #meet h5 { color: #0f9095; }
-#meet .section-head p.desc { color: #999999; font-size: medium; }
+#meet .section-head p.desc { color: #999999; font-size: medium; text-align: center;}
 #meet .section-head p, span { color: #000000;  font-weight: bold;}
 #meet .section-head .intro { color: #A3A3A3; }
 #meet h3 {
