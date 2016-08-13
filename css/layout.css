@@ -160,6 +160,7 @@ ul#nav li a {
    display: block;
    padding: 0 14px;
    line-height: 54px;
+   font-size: medium;
 	text-decoration: none;
    text-align: left;
    color: #fff;
@@ -676,7 +677,8 @@ ul#nav li.active a { color: #11ABB0; }
    line-height: 18px;
    color: #969696;
 }
-#meet .team-wrap .member-social {
+
+/*#meet .team-wrap .member-social {
    font-size: 14px;
    font-weight: normal;
    line-height: 18px;
@@ -689,7 +691,32 @@ ul#nav li.active a { color: #11ABB0; }
    margin-right: 15px;
 }
 #meet .team-wrap .member-social li a { color: #8C8C8C; }
-#meet .team-wrap .member-social li a:hover { color: #0f9095; }
+#meet .team-wrap .member-social li a:hover { color: #0f9095; }*/
+
+#cf {
+    position:relative;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+#cf img {
+    position:absolute;
+    left: 0;
+    width:480px;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;    
+    transition: opacity 1s ease-in-out;
+}
+ 
+#cf img.top:hover {
+    opacity:0;
+}
+
+
 
 
 /* ================================================================== */
