@@ -162,12 +162,12 @@ h6 { font-size: 14px; line-height: 30px; }
 
 p { margin: 0 0 24px 0; }
 p img { margin: 0; }
-p.lead { font: 20px/36px opensans-light, sans-serif; }
+p.lead { font: 20px/36px Futura, opensans-light, sans-serif; }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems on some browsers*/
-em { font: 15px/30px opensans-italic, sans-serif; }
-strong, b { font: 15px/30px opensans-bold, sans-serif; }
+em { font: Futura, 15px/30px opensans-italic, sans-serif; }
+strong, b { font: Futura, 15px/30px opensans-bold, sans-serif; }
 small { font-size: 11px; line-height: inherit; }
 
 /*	Blockquotes */
@@ -258,7 +258,7 @@ blockquote cite a:visited { color: #FFFFFF; border: none }
 
 /* Abbreviations */
 abbr {
-   font-family: opensans-bold, sans-serif;
+   font-family: Futura, opensans-bold, sans-serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
    letter-spacing: .5px;
@@ -356,7 +356,7 @@ li p { }
 	display: block;
 	margin: 6px 0 0 0;
 	font-size: 13px;
-	font-family: opensans-light, sans-serif;
+	font-family: Futura, opensans-light, sans-serif;
    color: #8B9798;
 }
 
@@ -412,7 +412,7 @@ dd { margin: 0 0 0 20px; }
    padding: 0;
 }
 .pagination .page-numbers {
-   font: 15px/18px opensans-bold, sans-serif;
+   font: Futura, 15px/18px opensans-bold, sans-serif;
    display: inline-block;
 	padding: 6px 10px;
    margin-right: 3px;
