@@ -99,6 +99,7 @@ header.static {
 /* header logo */
 header .logo {
    position: relative;
+   font-family: 'Average Sans', Futura, sans-serif;
    height: 54px;
    width: 150px;
    float: left;
@@ -110,7 +111,7 @@ header .logo a {
    height: 18px;
    width: 91px;
    line-height: 18px;
-
+   font-family: 'Average Sans', Futura, sans-serif;
    position: absolute;
    left: 12px;
    top: 16px;
