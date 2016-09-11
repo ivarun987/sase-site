@@ -502,7 +502,7 @@ ul#nav li.active a { color: #11ABB0; }
 /* ================================================================== */
 
 #about {
-   /*background: #fff url(../images/patterns/grey.png);*/
+   background: #e0e9f1; /*#fff url(../images/patterns/grey.png);*/
    padding-top: 156px;
    padding-bottom: 144px;
    color: #A3A3A3;
@@ -639,7 +639,7 @@ ul#nav li.active a { color: #11ABB0; }
 /* ================================================================== */
 
 #meet {
-   /*background: #fff url(../images/patterns/grey.png);*/
+   background: #e0e9f1 ;/*#fff url(../images/patterns/grey.png);*/
    padding-top: 156px;
    padding-bottom: 144px;
    color: #A3A3A3;
@@ -647,7 +647,7 @@ ul#nav li.active a { color: #11ABB0; }
 #meet .section-head h2 { color: #11ABB0 },
 #meet h4, #meet h5 { color: #0f9095; }
 #meet .section-head p.desc { color: #999999; font-size: medium; text-align: center;}
-#meet .section-head p, span { color: #000000;  font-weight: bold;}
+#meet .section-head p, span { color: white;  font-weight: bold;}
 #meet .section-head .intro { /*color: #A3A3A3;*/
     color: white; 
 }
