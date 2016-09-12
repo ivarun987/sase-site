@@ -646,11 +646,9 @@ ul#nav li.active a { color: #11ABB0; }
 }
 #meet .section-head h2 { color: #11ABB0 },
 #meet h4, #meet h5 { color: #0f9095; }
-#meet .section-head p.desc { color: #999999; font-size: medium; text-align: center;}
-#meet .section-head p, span { color: white;  font-weight: bold;}
-#meet .section-head .intro { /*color: #A3A3A3;*/
-    color: white; 
-}
+#meet .section-head p.desc { color: #5F5F5F; font-size: medium; text-align: center;}
+#meet .section-head p, span { color: black;  font-weight: bold; font-style: italic;}
+#meet .section-head .intro { color: white;}
 #meet h3 {
    font: 24px/30px montserrat-regular, sans-serif;
    margin-top: 24px;
@@ -672,13 +670,14 @@ ul#nav li.active a { color: #11ABB0; }
 /* Team Members */
 #meet .team-wrap h5 {
    font: 14px/24px montserrat-bold, sans-serif;
+   color: #111;
 }
 #meet .team-wrap span {
    position: relative;
    top: -6px;
    font-size: 13px;
    line-height: 18px;
-   color: #969696;
+   color: #5F5F5F;
 }
 
 /*#meet .team-wrap .member-social {
